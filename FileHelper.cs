@@ -1359,7 +1359,7 @@ namespace HelloCsharp.Utilities
                 for (int i = 0; i < fileNames.Length; i++)
                 {
 
-                    DeleteFile(fileNames);
+                    DeleteFile(fileNames[i]);
 
                 }
 
@@ -1372,7 +1372,7 @@ namespace HelloCsharp.Utilities
                 for (int i = 0; i < directoryNames.Length; i++)
                 {
 
-                    DeleteDirectory(directoryNames);
+                    DeleteDirectory(directoryNames[i]);
 
                 }
 
